@@ -1,0 +1,12 @@
+
+- Using Spring Boot
+
+
+3. Configuration Classes
+  @Configuration 用于定义配置类，可替换XML配置文件，被注解的类内部包含一个或多个@Bean注解方法。
+
+6. Using the @SpringBootApplication Annotation
+  @SpringBootApplication包含以下三个注解:
+  1.@EnableAutoConfiguration: enable Spring Boot’s auto-configuration mechanism
+  2.@ComponentScan: enable @Component scan on the package where the application is located (see the best practices)
+  3.@Configuration: allow to register extra beans in the context or import additional configuration classes
